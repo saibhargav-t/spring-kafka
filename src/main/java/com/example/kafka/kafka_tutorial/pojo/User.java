@@ -7,16 +7,14 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
 @Table(name="user")
+@NoArgsConstructor
 public class User {
 
-	public User() {
-		
-	}
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
@@ -27,5 +25,8 @@ public class User {
 	
 	@Column(name="city")
 	private String city;
+	
+	@Column(name="age")
+	private int age;
 	
 }
