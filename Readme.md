@@ -185,7 +185,7 @@ src/main/java/com/example/kafka/kafka_tutorial/
 
 ## 🛠️ Technologies Used
 
-- 🍃 **Spring Boot 3.5.7** - Application framework
+- 🍃 **Spring Boot 4.0.0** - Application framework
 - 📨 **Spring Kafka** - Kafka integration
 - 🗄️ **MySQL** - Database for persistence
 - 🔧 **Lombok** - Reduce boilerplate code
